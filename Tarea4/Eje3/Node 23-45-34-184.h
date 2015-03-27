@@ -11,10 +11,11 @@
 
 namespace vcn {
     
-    template <class T>
+template <class T>
     class Node {
         T info;
         Node<T> * next = nullptr;
+        Node<T> * before = nullptr;
         
     public:
         Node() { }
@@ -26,6 +27,9 @@ namespace vcn {
         
         Node<T> * getNext() const { return next; }
         void setNext(Node<T> * value) { next = value; }
+        
+        Node<T> * getBefore();
+        void setBefore(Node<T> * value);
         
         template <typename Tn>
         friend std::ostream & operator << (std::ostream & os, Node<Tn>  & node);
