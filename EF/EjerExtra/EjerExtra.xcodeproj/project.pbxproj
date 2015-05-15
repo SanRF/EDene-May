@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC050C71B06497600CE0C64 /* Libro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC050C21B06497600CE0C64 /* Libro.cpp */; };
+		AEC050C81B06497600CE0C64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC050C51B06497600CE0C64 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEC050B51B0646C300CE0C64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEC050B71B0646C300CE0C64 /* EjerExtra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EjerExtra; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC050C11B06483900CE0C64 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		AEC050C21B06497600CE0C64 /* Libro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Libro.cpp; sourceTree = "<group>"; };
+		AEC050C31B06497600CE0C64 /* Libro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Libro.h; sourceTree = "<group>"; };
+		AEC050C41B06497600CE0C64 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		AEC050C51B06497600CE0C64 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEC050C61B06497600CE0C64 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		AEC050C91B06573100CE0C64 /* busca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = busca.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC050B41B0646C300CE0C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC050AE1B0646C300CE0C64 = {
+			isa = PBXGroup;
+			children = (
+				AEC050B91B0646C300CE0C64 /* EjerExtra */,
+				AEC050B81B0646C300CE0C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC050B81B0646C300CE0C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC050B71B0646C300CE0C64 /* EjerExtra */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC050B91B0646C300CE0C64 /* EjerExtra */ = {
+			isa = PBXGroup;
+			children = (
+				AEC050C21B06497600CE0C64 /* Libro.cpp */,
+				AEC050C31B06497600CE0C64 /* Libro.h */,
+				AEC050C41B06497600CE0C64 /* LinkedList.h */,
+				AEC050C51B06497600CE0C64 /* main.cpp */,
+				AEC050C91B06573100CE0C64 /* busca.h */,
+				AEC050C61B06497600CE0C64 /* Node.h */,
+				AEC050C11B06483900CE0C64 /* Header.h */,
+			);
+			path = EjerExtra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC050B61B0646C300CE0C64 /* EjerExtra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC050BE1B0646C300CE0C64 /* Build configuration list for PBXNativeTarget "EjerExtra" */;
+			buildPhases = (
+				AEC050B31B0646C300CE0C64 /* Sources */,
+				AEC050B41B0646C300CE0C64 /* Frameworks */,
+				AEC050B51B0646C300CE0C64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjerExtra;
+			productName = EjerExtra;
+			productReference = AEC050B71B0646C300CE0C64 /* EjerExtra */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC050AF1B0646C300CE0C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Santiago Rodriguez Fernandez";
+				TargetAttributes = {
+					AEC050B61B0646C300CE0C64 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AEC050B21B0646C300CE0C64 /* Build configuration list for PBXProject "EjerExtra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEC050AE1B0646C300CE0C64;
+			productRefGroup = AEC050B81B0646C300CE0C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC050B61B0646C300CE0C64 /* EjerExtra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC050B31B0646C300CE0C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC050C81B06497600CE0C64 /* main.cpp in Sources */,
+				AEC050C71B06497600CE0C64 /* Libro.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEC050BC1B0646C300CE0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEC050BD1B0646C300CE0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AEC050BF1B0646C300CE0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEC050C01B0646C300CE0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC050B21B0646C300CE0C64 /* Build configuration list for PBXProject "EjerExtra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC050BC1B0646C300CE0C64 /* Debug */,
+				AEC050BD1B0646C300CE0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC050BE1B0646C300CE0C64 /* Build configuration list for PBXNativeTarget "EjerExtra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC050BF1B0646C300CE0C64 /* Debug */,
+				AEC050C01B0646C300CE0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC050AF1B0646C300CE0C64 /* Project object */;
+}
